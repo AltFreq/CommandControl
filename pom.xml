@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.mcdimensions.CommandControl</groupId>
+	<artifactId>CommandControl</artifactId>
+	<version>1.0</version>
+	<packaging>jar</packaging>
+
+	<url>http://www.spigotmc.org/resources/bungeesuite.9/</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<build.number>0.91b</build.number>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>snapshot-repo</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>net.md-5</groupId>
+			<artifactId>bungeecord-api</artifactId>
+			<version>1.5-SNAPSHOT</version>
+			<type>jar</type>
+			<scope>provided</scope>
+		</dependency>   
+  </dependencies>
+	
+  <build>
+  	<finalName>CommandControl</finalName>
+	<plugins>
+	  <plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-compiler-plugin</artifactId>
+		<version>3.1</version>
+		<configuration>
+		  <source>1.7</source>
+		  <target>1.7</target>
+		  <showDeprecation>true</showDeprecation>
+		  <showWarnings>true</showWarnings>
+		  <fork>true</fork>
+		</configuration>
+	  </plugin>
+	</plugins>
+  </build>
+  <name>CommandControl</name>
+</project>
