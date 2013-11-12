@@ -2,16 +2,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.mcdimensions.CommandControl</groupId>
+	<groupId>com.minecraftdimensions.CommandControl</groupId>
 	<artifactId>CommandControl</artifactId>
-	<version>1.0</version>
+	<version>1.1</version>
 	<packaging>jar</packaging>
 
 	<url>http://www.spigotmc.org/resources/bungeesuite.9/</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<build.number>0.91b</build.number>
+		<build.number>1.1</build.number>
 	</properties>
 
 	<repositories>
@@ -31,7 +31,7 @@
 		<dependency>
 			<groupId>net.md-5</groupId>
 			<artifactId>bungeecord-api</artifactId>
-			<version>1.5-SNAPSHOT</version>
+			<version>1.7-SNAPSHOT</version>
 			<type>jar</type>
 			<scope>provided</scope>
 		</dependency>   
