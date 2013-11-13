@@ -1,4 +1,4 @@
-package com.minecraftdimensions.command.config;
+package com.minecraftdimensions.commandcontrol.config;
 
 import java.io.BufferedReader;
 import java.io.File;

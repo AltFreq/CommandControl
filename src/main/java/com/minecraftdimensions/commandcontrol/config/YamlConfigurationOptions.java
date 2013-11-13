@@ -1,4 +1,4 @@
-package com.minecraftdimensions.command.config;
+package com.minecraftdimensions.commandcontrol.config;
 
 
 public class YamlConfigurationOptions extends FileConfigurationOptions {

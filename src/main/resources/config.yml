@@ -1,0 +1,14 @@
+ServerCommands:
+  creative: /gamemode c
+  survival: /gamemode s
+  gmc: /gamemoce c
+  w {arg} {args}: /msg {arg} {args}
+  shop: {proxy}hub spawn&&warp shop
+
+BungeeCommands:
+  Factions: server Factions
+  Creative: server Creative
+  broadcast {args}: alert {args}
+  rel: ccreload
+  message {arg} {args}: {server}msg {arg} {args}
+  quit: server hub&&{server}warp spawn

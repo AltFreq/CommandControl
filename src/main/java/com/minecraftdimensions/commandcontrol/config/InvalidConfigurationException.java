@@ -1,4 +1,4 @@
-package com.minecraftdimensions.command.config;
+package com.minecraftdimensions.commandcontrol.config;
 
 @SuppressWarnings("serial")
 public class InvalidConfigurationException extends Exception {
